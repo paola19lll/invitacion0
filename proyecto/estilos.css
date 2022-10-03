@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: Cambria;
+
+}
+
+     .contenedor{
+    background-color: yellow;
+    padding: 1000px 1000px 1000px 1000px;
+    margin: auto;
+    overflow: hidden;  
+}
+
+header {
+
+ width: 100%;
+    height: 500px;
+    background: #000046); 
+    background-image: url(img/sis.jpg) ;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    /*position: relative;*/
+  
+}
+
+
+
+    header .textos-header{
+        display: flex;/*si sirve*/
+        height: 200px;/*altura*/
+        width: 100%;/*ancho*/
+        justify-content: center;/*ss*/
+        flex-direction:column;
+        font-size:30px; /*textCONF*/
+        text-align:center;
+      
+    }
+
+.contenedor-cont {
+    font-size: 25px;
+  color:#2a52be;
+    text-align:center;
+    
+}
+
+h2{
+    text-align:center;
+    font-size:30px;
+color:#120a8f;
+}
+
+h3 {
+    text-align:center;
+    text-size-adjust:auto;
+    font-size:30px;
+    color:#120a8f;
+}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    color:#120a8f;
+}
+h5 {
+    text-align: center;
+    font-size: 30px;
+    color:#120a8f;
+}
+
+
+   
+
+
+    
